@@ -1,0 +1,5 @@
+.shadow-sm:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  transition: 300ms;
+}
+

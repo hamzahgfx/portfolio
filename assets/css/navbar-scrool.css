@@ -1,0 +1,18 @@
+.navbar-fixed-top.scrolled {
+  background-color: #ffffff  !important;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  transition: background-color 200ms linear;
+}
+
+#contact-container {
+  margin-top: 60px;
+}
+
+.footer-about {
+  margin-top: 200px;
+}
+
+#col-icons {
+  margin-top: 17px;
+}
+
