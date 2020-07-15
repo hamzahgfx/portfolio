@@ -1,0 +1,91 @@
+.dh-header-non-rectangular-container h1, p {
+  color: white;
+  font-weight: bold;
+}
+
+body a {
+  outline: none !important;
+}
+
+.highlight-blue {
+  color: #fff;
+  background-color: #1e6add;
+  padding: 50px 0;
+}
+
+.highlight-blue p {
+  color: #c4d5ef;
+  line-height: 1.5;
+}
+
+.highlight-blue h2 {
+  font-weight: normal;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.highlight-blue .buttons {
+  text-align: center;
+}
+
+.highlight-blue .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border-radius: 3rem;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.highlight-blue .buttons .btn:hover {
+  opacity: 1;
+}
+
+.highlight-blue .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.hr-about {
+  border-top: 1px solid rgb(255,91,0);
+}
+
+.para-about {
+  color: rgb(255,91,0);
+}
+
+.img-about {
+  width: 50%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+#portfolio-back {
+  font-size: 14px;
+}
+
+#portfolio-back {
+  color: white;
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+}
+
+#contact-container {
+  padding-bottom: 30px;
+}
+

@@ -1,0 +1,27 @@
+#portfolio-back {
+  width: 200px;
+  background-color: rgba(221,155,56,0.83);
+  outline: none;
+  border: none;
+  margin-top: -55px;
+  margin-left: 5px;
+}
+
+.waning-section {
+  position: fixed;
+  top: 900px;
+}
+
+.back-icon {
+  color: green;
+  font-size: 60px;
+}
+
+.back-icon {
+  font-size: 90px;
+}
+
+#portfolio-back:hover {
+  background-color: #ed9410;
+}
+
