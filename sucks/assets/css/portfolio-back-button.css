@@ -1,0 +1,57 @@
+#portfolio-back {
+  width: 200px;
+  background-color: rgba(221,155,56,0.83);
+  outline: none;
+  border: none;
+  margin-top: -55px;
+  margin-left: 5px;
+}
+
+.waning-section {
+  position: fixed;
+  top: 900px;
+}
+
+.back-icon {
+  color: green;
+  font-size: 60px;
+}
+
+.back-icon {
+  font-size: 90px;
+}
+
+#portfolio-back:hover {
+  background-color: #ed9410;
+}
+
+#portfolio-back {
+  color: white;
+  font-size: 14px;
+}
+
+.custom-jumbotron {
+  background-image: url("../../assets/img/avatars/white-single-story-houses-beside-body-of-water-1438832.jpg");
+  background-size: cover;
+  padding: 240px 0;
+  text-align: center;
+}
+
+.custom-jumbotron > h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.hero-div {
+  width: 640px;
+}
+
+#hero-container {
+  padding-bottom: 240px;
+  padding-top: 240px;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
