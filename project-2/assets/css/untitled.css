@@ -1,0 +1,48 @@
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  z-index: 9999999;
+  top: 0;
+}
+.pre-loading-img{
+margin-top: 100px;
+margin-left: 500px;
+}
+.logo-img {
+  width: 200px;
+}
+
+.main-section {
+  padding-top: 130px;
+  background-image: linear-gradient(to right bottom, #ff9000, #ff9584, #ffb6d5, #ffdfff, #ffffff);
+}
+
+.my-form {
+}
+
+.form-inline {
+}
+
+.row.row-stats {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.main-dog-img {
+  width: 100%;
+}
+
+.row.form-row {
+  width: 100%;
+}
+
+.contact-section {
+}
+
+.about-sec {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
