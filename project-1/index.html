@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Photo-Shoot</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/shutter-512.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/--mp---Masonry-Gallery-with-Loader.css">
+    <link rel="stylesheet" href="assets/css/--mp--Animated-progress-bar-in-viewport.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="assets/css/navbar-scrool.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Dark-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body 
+onload="myFunction()">
+
+    <div id="loading">
+        <img class="pre-loading-img" src="assets/img/loading.gif" alt="">
+    </div>
+
+
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar-fixed-top navigation-clean">
+        <div class="container"><img class="logo-img" src="assets/img/logo.svg"><a class="navbar-brand" id="nav-brand-me" href="index.html">&nbsp; Photo Shoot</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse better-bootstrap-nav-left" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="btn btn-primary" role="button" data-bs-hover-animate="jello" id="btn-buynow" href="gallerey.html">Gallery</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <section class="section-jumbotron">
+            <div class="container" id="container-hero">
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="250" data-aos-delay="300" data-aos-once="true" id="col-intro-text" style="color: rgb(255,255,255);">
+                        <h1><br>Build your next project faster and with HAMZA-GFX<br></h1>
+                        <p><br>Welcome to HAMZA-GFX studio, a designer for building beautiful web interfaces, created by the developmet team at HAMZAH-GFX Studio<br><br></p><button class="btn btn-primary shadow" id="btn-buynow" type="button">Buy Now</button></div>
+                    <div
+                        class="col text-center" data-aos="fade-left" data-aos-duration="250" data-aos-delay="600" data-aos-once="true"><img id="camera-img" src="assets/img/camera.svg"></div>
+            </div>
+            </div><img src="assets/img/page-1-bottom%20curve.svg"></section>
+        <section class="waning-section" style="opacity: 1;">
+            <div class="container-fluid text-left">
+                <div class="row">
+                    <div class="col-md-12 text-center"><a href="../index.html" class="btn btn-primary" role="button" id="portfolio-back">Go Back (HAMZAH-GFX)</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="section-platform">
+            <div class="container text-center" id="platform-container">
+                <h1 style="color: rgb(9,122,95);">Working Platform,</h1>
+                <div class="row" id="platform-row">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="300" data-aos-once="true">
+                        <div class="platform-icon-div"><i class="fa fa-bold" id="icon-platform"></i></div>
+                        <h5>Bootstrap<br></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.<br></p>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="600" data-aos-once="true">
+                        <div class="platform-icon-div"><i class="fa fa-html5" id="icon-platform"></i></div>
+                        <h5>HTML<br></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.<br></p>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="250" data-aos-delay="900" data-aos-once="true">
+                        <div class="platform-icon-div"><i class="fa fa-css3" id="icon-platform"></i></div>
+                        <h5>CSS<br></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-about" style="background-image: url(&quot;assets/img/gallerey-bg.svg&quot;);background-size: cover;background-repeat: no-repeat;"><img src="assets/img/page-1-top%20curve.svg">
+            <div class="container" id="about-container">
+                <h1 class="text-center" style="color: rgb(9,122,95);">About</h1>
+                <div class="row" id="row-about">
+                    <div class="col-md-6 text-center" data-aos="fade-up" data-aos-duration="250" data-aos-delay="300" data-aos-once="true"><img class="shadow" id="about-img" src="assets/img/man-wearing-black-zip-up-hooded-jacket-facing-camera-1080213.jpg"></div>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="250" data-aos-delay="600" data-aos-once="true">
+                        <h3><br>Build your next project faster with HAMZA-GFX<br></h3>
+                        <p><br><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br></p>
+                    </div>
+                </div>
+            </div><img class="main-devider" src="assets/img/main-devider.svg"></section>
+        <section class="section-gallery">
+            <div class="container" id="gallery-container">
+                <h1 class="text-center" style="color: rgb(9,122,95);">Masonry Gallery</h1>
+                <div class="row" id="gallery-row">
+                    <div class="col">
+                        <div id="mnsry_container">
+                            <article id="gallere-section-item" class="item"><img src="assets/img/black-sony-dslr-camera-on-green-grass-in-front-of-brown-and-225157.jpg"></article>
+                            <article id="gallere-section-item" class="item"><img src="assets/img/camera-event-live-settings-66134.jpg"></article>
+                            <article id="gallere-section-item" class="item"><img src="assets/img/close-up-photo-of-person-3059396.jpg"></article>
+                            <article id="gallere-section-item" class="item"><img src="assets/img/camera-photography-technology-reflection-122400.jpg"></article>
+                            <article id="gallere-section-item" class="item"><img src="assets/img/man-in-white-crew-neck-shirt-4746748.jpg"></article>
+                            <article id="gallere-section-item" class="item"><img src="assets/img/man-in-gray-shorts-sitting-on-red-inflatable-ring-4314679.jpg"></article>
+                        </div>
+                        <div id="mnsry_container"></div>
+                    </div>
+                </div>
+                <div class="col text-center"><a class="btn btn-primary shadow btn-margin" role="button" id="btn-buynow" href="gallerey.html">Full Vew</a></div>
+                <div id="loading_msg">
+                    <p>Loading...</p><img src="assets/img/loading.gif"></div>
+            </div>
+        </section>
+        <section class="section-contact"><img src="assets/img/page-1-top%20curve.svg">
+            <div class="container" id="contact-container">
+                <div class="row">
+                    <div class="col">
+                        <div class="shadow" style="width: 100%;min-height: 630px;margin-top: 119px;background-color: rgba(255,255,255,0.79);">
+                            <form style="padding-top: 70px;">
+                                <div class="form-group">
+                                    <h1 class="text-center">Contact Us.</h1>
+                                </div>
+                                <div class="form-group"><input class="form-control form-control-lg" type="text" style="width: 50%;margin-left: 25%;" required="" placeholder="Name"></div>
+                                <div class="form-group"><input class="form-control form-control-lg" type="email" style="width: 50%;margin-left: 25%;" placeholder="Email"></div>
+                                <div class="form-group"><textarea class="form-control form-control-lg" style="width: 50%;margin-left: 25%;min-height: 200px;" placeholder="Message"></textarea></div>
+                                <div class="form-group"><button class="btn btn-dark btn-lg" style="width: 50%;margin-left: 25%;" type="submit">Contact us</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type<br></p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company HAMZA-GFX © 2017</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/--mp--Animated-progress-bar-in-viewport-1.js"></script>
+    <script src="assets/js/--mp--Animated-progress-bar-in-viewport.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/digistate/resouces/master/multipleFilterMasonry.js"></script>
+    <script src="https://cdn.rawgit.com/desandro/masonry/master/dist/masonry.pkgd.min.js"></script>
+    <script src="assets/js/--mp---Masonry-Gallery-with-Loader.js"></script>
+    <script src="assets/js/Grid-Overlay-Hero-Section-with-Scroll-Down-Icon.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    <script src="assets/js/navbar-scrool.js"></script>
+    <script>
+
+        var preloader = document.getElementById("loading")
+
+        function myFunction(){
+
+          preloader.style.display = "none"
+
+        }
+
+   </script>
+</body>
+
+</html>
