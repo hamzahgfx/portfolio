@@ -97,6 +97,12 @@
   margin-top: 20px;
 }
 
+@media (max-width: 640px) {
+  .form-responsive{
+    width: 97%;
+  }
+}
+
 #top-background {
   background-color: gray;
   padding-top: 200px;
