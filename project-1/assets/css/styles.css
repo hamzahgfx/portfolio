@@ -14,9 +14,3 @@
     margin-top: -7px;
 }
 
-@media (min-width: 300px) {
-  #container-contact-page {
-    width: 90%;
-  }
-}
-
