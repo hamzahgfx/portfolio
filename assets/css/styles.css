@@ -28,11 +28,7 @@ margin-left: 500px;
   }
 }
 
-@media (max-width: 640px) {
-  .hr {
-    width: 100%;
-  }
-}
+
 
 @media (max-width: 640px) {
   #btn-live {
