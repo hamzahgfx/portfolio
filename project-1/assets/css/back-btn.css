@@ -1,0 +1,19 @@
+.icon-arrow-left.back-icon:hover {
+  background-color: rgba(0,0,0,0.67);
+  transition: 300ms;
+}
+
+.icon-arrow-left.back-icon {
+  position: fixed;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(0,0,0,0.31);
+  color: #ffffff;
+  top: 50%;
+  left: 0;
+  padding-right: 10px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  z-index: 99999;
+}
+
