@@ -185,10 +185,6 @@
   transform: rotate(180deg);
 }
 
-.warning-paragraph {
-  color: rgba(252,0,0,0.8);
-}
-
 #portfolio-back {
   width: 200px;
   background-color: rgba(221,155,56,0.83);
@@ -196,11 +192,6 @@
   border: none;
   margin-top: -55px;
   margin-left: 5px;
-}
-
-.waning-section {
-  position: fixed;
-  top: 450px;
 }
 
 .back-icon {
