@@ -15,7 +15,7 @@
 }
 
 @media (min-width: 300px) {
-  .form-setup {
+  #container-contact-page {
     width: 90%;
   }
 }
