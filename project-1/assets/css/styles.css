@@ -13,8 +13,3 @@
 .error-footer{
     margin-top: -7px;
 }
-@media (max-width: 640px) {
-  .form-responsive{
-    width: 100%;
-  }
-}
