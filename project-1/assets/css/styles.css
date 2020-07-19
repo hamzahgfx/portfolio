@@ -13,3 +13,10 @@
 .error-footer{
     margin-top: -7px;
 }
+
+@media (min-width: 300px) {
+  .form-setup {
+    width: 90%;
+  }
+}
+
