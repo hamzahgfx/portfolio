@@ -15,3 +15,15 @@
 .error-footer{
     margin-top: -7px;
 }
+.left-btn {
+            position: fixed;
+            height: 40px;
+            line-height: 40px;
+            background-color: #00000050;
+            color: white;
+            top: 50%;
+            left: 0;
+            padding-right: 10px;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+}
