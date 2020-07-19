@@ -97,10 +97,13 @@
   margin-top: 20px;
 }
 
-@media (max-width: 640px) {
-  .form-responsive{
-    width: 97%;
+ @media (min-width: 300px) {
+  #contact-container {
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
   }
+
 }
 
 #top-background {
