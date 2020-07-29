@@ -11,9 +11,32 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body><img src="assets/img/screencapture-192-168-10-2-8000-2020-07-24-19_42_25.png" style="width: 100%;"><a href="../index.html"><i class="icon ion-ios-arrow-left" id="back-icon"></i></a>
+<body onload="myFunction()"
+      
+      <div id="loading">
+        <img class="pre-loading-img" src="assets/img/loading.gif" alt="">
+</div>
+      
+      
+      
+      ><img src="assets/img/screencapture-192-168-10-2-8000-2020-07-24-19_42_25.png" style="width: 100%;"><a href="../index.html"><i class="icon ion-ios-arrow-left" id="back-icon"></i></a>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script>
+
+        var preloader = document.getElementById("loading")
+
+        function myFunction(){
+
+          preloader.style.display = "none"
+
+        }
+
+</script>
+
+
+
+
 </body>
 
 </html>
